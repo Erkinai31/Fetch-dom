@@ -1,0 +1,11 @@
+.wrapper{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-template-rows: minmax(100px,auto);
+}
+
+.div_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
